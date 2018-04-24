@@ -1,0 +1,90 @@
+.navbar{
+
+       }
+
+       .navbar-default {
+    background-color: white;
+    border-color: #b768c9;}
+
+    /* Title */
+.navbar-default .navbar-brand  {
+    color: black;
+  font-family: 'Monoton', cursive;
+  text-shadow: 5px 5px 5px #555;
+  font-size: 30px;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: black;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+   color: black;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 4px 4px 4px #555;
+    font-size: 23px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FF0099;
+      font-family: 'Pacifico', cursive;
+  text-shadow: 5px 5px 5px #555;
+  font-size: 30px;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: green;
+     border-radius: 3px;
+}
+
+#sig{ font-size: 15px; }
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .class="row" {
+      padding-top: 70px;
+  }
+#bg{
+
+   text-align: center;
+   margin:  35px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 4px 4px 4px #555;
+
+       /* The image used */
+    background-image: url("https://static-welcome-talent.basecdn.net/image/lp2/background.svg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bg h1{
+	
+    font-size: 50px;
+}
+
+#bg h2{
+	text-align: right;
+    font-size: 40px;
+}
+#bg h3{
+
+    font-size: 40px;
+}
+.im{width: 100%;}
+
+footer{
+	background-color: #ddbae2;
+}
+.img-responsive{
+	width: 400px ;
+	height: 300px; 
+}
